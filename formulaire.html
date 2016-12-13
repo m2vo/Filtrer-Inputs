@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <style>
+            input[type="text"] {
+                width: 50%;
+                margin-bottom: 10px;
+            }
+        </style>
+    </header>
+
+    <body>
+
+        <form>
+            <input type="text" placeholder="Numéro téléphone" class="filtrer telephone" data-longmax="20">
+            <input type="text" placeholder="Nombre entier" class="filtrer chiffres">
+            <input type="text" placeholder="Texte converti en majuscules" class="filtrer majuscules-tout">
+            <input type="text" placeholder="Initiale des mots convertie en majuscule" class="filtrer majuscules-mot">
+            <input type="text" placeholder="login sous la forme PRENOM_NOM" class="filtrer login" data-longmax="15">
+        </form>
+
+        <!-- JAVASCRIPT -->
+        <script src="js/filtrer.js"></script>
+    </body>
+
+</html>
