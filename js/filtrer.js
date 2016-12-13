@@ -52,7 +52,7 @@ function filtrerInput(e) {
                     nouveauMot = true;
                 } 
             }
-            // Ajouter le caractère (si le nbre maxi autorisé n'est pas atteint')
+            // Ajouter le caractère (si le nbre maxi autorisé n'est pas atteint)
             if (longMax == null || nouvValeur.length - end + start < longMax ) {
                 nouvValeur += c;
             }
