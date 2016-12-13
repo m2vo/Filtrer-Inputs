@@ -1,4 +1,4 @@
-// Ajout de l'événment Input à tous les inputs possédant la classe .filtrer
+// Ajout de l'événement Input à tous les inputs possédant la classe .filtrer
 document.querySelectorAll("input.filtrer").forEach(function(elt){
     elt.addEventListener("input", filtrerInput); 
 });
